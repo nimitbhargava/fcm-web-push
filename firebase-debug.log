@@ -1,0 +1,41 @@
+[debug] [2018-04-10T11:43:57.152Z] ----------------------------------------------------------------------
+[debug] [2018-04-10T11:43:57.154Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve -p 8081
+[debug] [2018-04-10T11:43:57.155Z] CLI Version:   3.18.2
+[debug] [2018-04-10T11:43:57.155Z] Platform:      darwin
+[debug] [2018-04-10T11:43:57.155Z] Node Version:  v8.9.1
+[debug] [2018-04-10T11:43:57.155Z] Time:          Tue Apr 10 2018 17:13:57 GMT+0530 (IST)
+[debug] [2018-04-10T11:43:57.155Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-10T11:43:57.164Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-10T11:43:57.164Z] > authorizing via signed-in user
+[debug] [2018-04-10T11:43:57.166Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-10T11:43:57.166Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/MG_BjZGmJW9IsLU0uDMp5okIZpmkXzLRLUMHZ3SVxJA',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Apr 10 2018 17:13:57 GMT+0530 (IST)
+[debug] [2018-04-10T11:43:57.345Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-10T11:43:57.360Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/web-push-b6e04  
+  
+ Tue Apr 10 2018 17:13:57 GMT+0530 (IST)
+[debug] [2018-04-10T11:43:58.864Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-10T11:43:58.865Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/web-push-b6e04/tokens  
+  
+ Tue Apr 10 2018 17:13:58 GMT+0530 (IST)
+[debug] [2018-04-10T11:44:00.120Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-10T11:44:00.121Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/web-push-b6e04  
+  
+ Tue Apr 10 2018 17:14:00 GMT+0530 (IST)
+[debug] [2018-04-10T11:44:01.498Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/nimit/pwa/test'...
+[info] 
+[debug] [2018-04-10T11:44:01.500Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/589341783466/clients/_:getWebAppConfig  
+  
+ Tue Apr 10 2018 17:14:01 GMT+0530 (IST)
+[debug] [2018-04-10T11:44:02.166Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:8081
+
