@@ -16,6 +16,7 @@ The above steps will add your device id to the `topics/test`
 
 
 ## Setting notification options in the send request
+Send the below POST request
 ```
 https://fcm.googleapis.com/fcm/send
 Content-Type: application/json
